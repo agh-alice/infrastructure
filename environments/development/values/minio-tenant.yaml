@@ -1,0 +1,8 @@
+tenant:
+  name: minio-tenant
+  configSecret:
+    name: minio-creds-secret
+    accessKey: user
+    secretKey: password
+  certificate:
+    requestAutoCert: false
